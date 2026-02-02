@@ -1,0 +1,82 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+
+/*------------------------------------------------------------------------*/
+{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.body {
+ 
+  background-image: url('https://i.pinimg.com/1200x/5d/ac/33/5dac33a3902025ab28c66eeb23ad69e8.jpg');
+  
+  width: 100vw;                 /* Full laptop width */
+  min-height: 100vh;            /* Full laptop height */
+  background-size: cover;       /* Image-ah screen-ku stretch pannum */
+  background-position: center;   /* Image-oda center part-ah kaatum */
+  background-repeat: no-repeat;  /* Image repeat aagathu */
+  background-attachment: fixed;  /* Scroll panna image move aagathu */
+
+  /* Content-ah center panna display flex use pannuvom */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.glowing{
+  width:200px;
+  height:20px;
+  border: 2px solid aqua; 
+  outline: none;
+  padding: 5px 10px;
+  transition: 0.3s;
+}
+
+.glowing:focus {
+  box-shadow: 0 0 30px red;
+  border-color: pink;
+}
+
+.button{
+  width:80px;
+  height:40px;
+}
+  /*------------------------------------------*/

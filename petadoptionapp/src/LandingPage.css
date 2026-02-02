@@ -1,0 +1,19 @@
+.landing-container {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background-image: url('https://img.freepik.com/free-vector/frame-with-dogs-vector-white-background_53876-127700.jpg'); 
+  background-size: cover;
+  background-position: center;
+  color: white;
+  text-shadow: 2px 2px 4px black;
+}
+
+.landing-title {
+  font-size: 48px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
