@@ -15,7 +15,7 @@ function Login() {
       
       if (res.data.userId) {
         localStorage.setItem("userId", res.data.userId);
-        navigate("/gallery"); // Redirect to the pet gallery
+        navigate("/gallery"); 
       }
     } catch (err) {
       alert(err.response?.data || "Login failed. Please check your credentials.");
@@ -53,4 +53,4 @@ function Login() {
   );
 }
 
-export default Login;
+export default Login; 

@@ -16,21 +16,56 @@ function Profile() {
         </div>
 
         <div className="space-y-6">
+          {/* User Details Section */}
           <div className="bg-gray-50 p-4 rounded-2xl">
-            <p className="text-xs text-gray-400 font-bold uppercase mb-1">Full Name</p>
-            <p className="text-lg font-semibold text-gray-800">{userName}</p>
+            <p className="text-xs text-gray-400 font-bold uppercase mb-1">
+              Full Name
+            </p>
+            <p className="text-lg font-semibold text-gray-800">
+              {userName}
+            </p>
           </div>
 
           <div className="bg-gray-50 p-4 rounded-2xl">
-            <p className="text-xs text-gray-400 font-bold uppercase mb-1">Email Address</p>
-            <p className="text-lg font-semibold text-gray-800">{userEmail}</p>
+            <p className="text-xs text-gray-400 font-bold uppercase mb-1">
+              Email Address
+            </p>
+            <p className="text-lg font-semibold text-gray-800">
+              {userEmail}
+            </p>
           </div>
 
-          <button 
+          {/* Adopted Pets Section */}
+          <div className="bg-gray-50 p-4 rounded-2xl">
+            <p className="text-xs text-gray-400 font-bold uppercase mb-2">
+              Adopted Pets
+            </p>
+            <p className="text-sm text-gray-600 italic mb-4">
+              No pets adopted yet.
+            </p>
+
+            {/* Sell My Pets Button Added Here */}
+            <button
+              className="w-full bg-blue-500 text-white font-bold py-2 rounded-xl hover:bg-blue-600 transition shadow-sm mb-2"
+              onClick={() => alert("Selling page-ku poguthu...")}
+            >
+              Sell My Pets
+            </button>
+          </div>
+
+          {/* Logout/Back Button */}
+          <button
             onClick={() => window.history.back()}
             className="w-full bg-blue-900 text-white font-bold py-3 rounded-full hover:bg-blue-800 transition shadow-md"
           >
             Go Back to Gallery
+          </button>
+          
+          <button
+            onClick={() => alert("Logged out!")}
+            className="w-full bg-red-500 text-white font-bold py-3 rounded-full hover:bg-red-600 transition shadow-md mt-2"
+          >
+            Logout
           </button>
         </div>
       </div>

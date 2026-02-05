@@ -49,14 +49,14 @@
  
   background-image: url('https://i.pinimg.com/1200x/5d/ac/33/5dac33a3902025ab28c66eeb23ad69e8.jpg');
   
-  width: 100vw;                 /* Full laptop width */
+  width: 100vw;                
   min-height: 100vh;            /* Full laptop height */
   background-size: cover;       /* Image-ah screen-ku stretch pannum */
   background-position: center;   /* Image-oda center part-ah kaatum */
   background-repeat: no-repeat;  /* Image repeat aagathu */
   background-attachment: fixed;  /* Scroll panna image move aagathu */
 
-  /* Content-ah center panna display flex use pannuvom */
+  
   display: flex;
   justify-content: center;
   align-items: center;
